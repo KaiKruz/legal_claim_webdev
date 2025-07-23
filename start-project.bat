@@ -1,0 +1,16 @@
+@echo off
+echo Starting Mesothelioma Project...
+echo.
+echo Starting Backend Server...
+start "Backend Server" cmd /k "cd backend && npm run dev"
+echo.
+echo Waiting 5 seconds for backend to start...
+echo.
+echo Starting Frontend Application...
+start "Frontend App" cmd /k "cd frontend && npm start"
+echo.
+echo Both servers starting...
+echo Backend: http://localhost:5000
+echo Frontend: http://localhost:3000
+echo.
+pause

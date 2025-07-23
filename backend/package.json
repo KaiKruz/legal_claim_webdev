@@ -1,0 +1,26 @@
+{
+  "name": "mesothelioma-backend-mysql",
+  "version": "1.0.0",
+  "description": "Mesothelioma case evaluation form backend with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "sequelize": "^6.28.0",
+    "mysql2": "^3.2.0",
+    "helmet": "^6.0.1",
+    "express-rate-limit": "^6.7.0",
+    "joi": "^17.7.1",
+    "winston": "^3.8.2",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

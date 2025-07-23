@@ -1,0 +1,15 @@
+{
+  "name": "mesothelioma-full-stack",
+  "version": "1.0.0",
+  "description": "Complete mesothelioma case evaluation application",
+  "scripts": {
+    "setup": "setup-project.bat",
+    "start": "start-project.bat",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["mesothelioma", "legal", "form", "mysql", "react"],
+  "author": "Your Name",
+  "license": "MIT"
+}
